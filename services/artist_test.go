@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/qiangxue/golang-restful-starter-kit/app"
-	"github.com/qiangxue/golang-restful-starter-kit/models"
+	"github.com/erikmswan/go-http-server/app"
+	"github.com/erikmswan/go-http-server/models"
 	"github.com/stretchr/testify/assert"
 )
 

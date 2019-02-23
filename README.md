@@ -1,9 +1,9 @@
 # Go RESTful Application Starter Kit
 
-[![GoDoc](https://godoc.org/github.com/qiangxue/golang-restful-starter-kit?status.png)](http://godoc.org/github.com/qiangxue/golang-restful-starter-kit)
-[![Build Status](https://travis-ci.org/qiangxue/golang-restful-starter-kit.svg?branch=master)](https://travis-ci.org/qiangxue/golang-restful-starter-kit)
-[![Coverage Status](https://coveralls.io/repos/github/qiangxue/golang-restful-starter-kit/badge.svg?branch=master)](https://coveralls.io/github/qiangxue/golang-restful-starter-kit?branch=master)
-[![Go Report](https://goreportcard.com/badge/github.com/qiangxue/golang-restful-starter-kit)](https://goreportcard.com/report/github.com/qiangxue/golang-restful-starter-kit)
+[![GoDoc](https://godoc.org/github.com/erikmswan/go-http-server?status.png)](http://godoc.org/github.com/erikmswan/go-http-server)
+[![Build Status](https://travis-ci.org/erikmswan/go-http-server.svg?branch=master)](https://travis-ci.org/erikmswan/go-http-server)
+[![Coverage Status](https://coveralls.io/repos/github/erikmswan/go-http-server/badge.svg?branch=master)](https://coveralls.io/github/erikmswan/go-http-server?branch=master)
+[![Go Report](https://goreportcard.com/badge/github.com/erikmswan/go-http-server)](https://goreportcard.com/report/github.com/erikmswan/go-http-server)
 
 This starter kit is designed to get you up and running with a project structure optimal for developing
 RESTful services in Go. The kit promotes the best practices that follow the [SOLID principles](https://en.wikipedia.org/wiki/SOLID_(object-oriented_design))
@@ -42,13 +42,13 @@ After installing Go, run the following commands to download and install this sta
 
 ```shell
 # install the starter kit
-go get github.com/qiangxue/golang-restful-starter-kit
+go get github.com/erikmswan/go-http-server
 
 # install dep
 $ curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
 
 # fetch the dependent packages
-cd $GOPATH/qiangxue/golang-restful-starter-kit
+cd $GOPATH/erikmswan/go-http-server
 dep ensure
 ```
 
@@ -70,7 +70,7 @@ postgres://<username>:<password>@<server-address>:<server-port>/<db-name>
 For more details about specifying a PostgreSQL DSN, please refer to [the documentation](https://godoc.org/github.com/lib/pq).
 
 Now you can build and run the application by running the following command under the
-`$GOPATH/qiangxue/golang-restful-starter-kit` directory:
+`$GOPATH/erikmswan/go-http-server` directory:
 
 ```shell
 go run server.go
@@ -118,8 +118,8 @@ the project structure and the recommended practices.
 To use the starter kit as a starting point of a real project whose package name is something like
 `github.com/abc/xyz`, take the following steps:
  
-* move the directory `$GOPATH/github.com/qiangxue/golang-restful-starter-kit` to `$GOPATH/github.com/abc/xyz`
-* do a global replacement of the string `github.com/qiangxue/golang-restful-starter-kit` in all of
+* move the directory `$GOPATH/github.com/erikmswan/go-http-server` to `$GOPATH/github.com/abc/xyz`
+* do a global replacement of the string `github.com/erikmswan/go-http-server` in all of
   project files with the string `github.com/abc/xyz`
 
 ### Implementing CRUD of Another Table
