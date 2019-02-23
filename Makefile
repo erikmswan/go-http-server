@@ -5,8 +5,8 @@ LDFLAGS:=-ldflags "-X github.com/erikmswan/go-http-server/app.Version=${VERSION}
 
 default: run
 
-depends:
-	dep ensure
+tidy:
+	go mod tidy
 
 test:
 	echo "mode: count" > coverage-all.out
