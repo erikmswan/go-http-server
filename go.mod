@@ -1,4 +1,4 @@
-module github.com/erikmswan/golang-restful-starter-kit
+module github.com/erikmswan/go-http-server
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
