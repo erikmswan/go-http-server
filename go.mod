@@ -5,7 +5,6 @@ require (
 	github.com/Sirupsen/logrus v1.0.5
 	github.com/asaskevich/govalidator v0.0.0-20180720115003-f9ffefc3facf // indirect
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
-	github.com/erikmswan/go-http-server v0.0.0-20170611030149-663378171337
 	github.com/go-ozzo/ozzo-dbx v0.0.0-20180615163742-e984ee904f1b
 	github.com/go-ozzo/ozzo-routing v2.1.4+incompatible
 	github.com/go-ozzo/ozzo-validation v3.4.0+incompatible
